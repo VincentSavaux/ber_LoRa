@@ -7,9 +7,8 @@ The script ber_LoRa returns the theoretical bit error rate (BER) that can be ach
 
 The theoretical results have been obtained from the following reference: 
 
-M. J. Faber, K. M. van der Zwaag,W. G. V. dos Santos, H. R. d. O. Rocha,
-M. E. V. Segatto, and J. A. L. Silva, “*A Theoretical and Experimental
-Evaluation on the Performance of LoRa Technology*,” IEEE Sensors
-Journal, vol. 20, no. 16, pp. 9480–9489, August 2020. 
+C. F. Dias, E. R. de Lima, and G. Fraidenraich, “*Bit Error Rate Closed-
+Form Expressions for LoRa Systems under Nakagami and Rice Fading
+Channels*,” Sensors, vol. 19, no. 20, pp. 1 – 11, October 2019.
 
-Computing the error rate requires multiple precision integers variables, up to hundreds or thousands of bits, which is provided by the package *gmpy2*. 
+Computing the error rate requires arbritary precision floating point, up to hundreds or thousands of bits, which can be obtained by using the package *gmpy2*. 
