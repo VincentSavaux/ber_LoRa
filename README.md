@@ -12,4 +12,4 @@ M. E. V. Segatto, and J. A. L. Silva, “*A Theoretical and Experimental
 Evaluation on the Performance of LoRa Technology*,” IEEE Sensors
 Journal, vol. 20, no. 16, pp. 9480–9489, August 2020. 
 
-Computing the error rate requires large variables, up to hundreds or thousands of bits, which is provided by the package *gmpy2*. 
+Computing the error rate requires multiple precision integers variables, up to hundreds or thousands of bits, which is provided by the package *gmpy2*. 
